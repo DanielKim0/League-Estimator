@@ -4,18 +4,21 @@ class Fetcher:
     def __init__(self):
         pass
 
-    def fetch_games(self):
+    def fetch_match_history(self):
         pass
 
-    def calculate_playtime(self):
+    def calculate_match_stats(self):
+        pass
+
+    def cache_match_data(self):
         pass
     
     def fetch_mmr(self):
         # fetch and save
         pass
 
-    def save_mmr(self):
+    def cache_mmr(self):
         pass
 
-    def add_mmr_summ(self):
+    def add_tracked_summ(self, name):
         pass
